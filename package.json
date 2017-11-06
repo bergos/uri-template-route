@@ -1,0 +1,34 @@
+{
+  "name": "uri-template-route",
+  "description": "Conditional Express middleware calls using RFC6570 URI Templates",
+  "keywords": [
+    "uri",
+    "template",
+    "rfc6570",
+    "route",
+    "express"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/bergos/uri-template-route",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergos/uri-template-route.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergos/uri-template-route/issues"
+  },
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "dependencies": {
+    "uri-templates": "^0.2.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3",
+    "supertest": "^3.0.0"
+  }
+}
